@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8e1;
+  color: #4e342e;
+}
+
+header {
+  background-color: #ffcc80;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4e342e;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro button {
+  padding: 10px 20px;
+  background-color: #ffb300;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.intro button:hover {
+  background-color: #ffa000;
+}
+
+.cardapio ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #ffe0b2;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
